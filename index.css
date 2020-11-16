@@ -8,19 +8,31 @@ body {
     text-align: center;
 }
 
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
 header {
-    display: block;
-    margin: auto;
-    width: 20em;
-    font-weight: 500;
+  display: block;
+  margin: auto;
+  width: 20em;
+  font-weight: 500;
 }
 
-img {
-    width: 100%;
+svg {
+  stroke-width: 9;
+  stroke-linecap: round; 
+  stroke-linejoin: round; 
+  stroke: rgb(255, 255, 255); 
+  fill: none;
 }
 
 h1 a {
-  padding: 0 0.1em;
+  padding: 0 0.1em 0.1em;
   text-decoration: none;
   color: white;
 }
